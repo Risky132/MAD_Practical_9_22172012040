@@ -5,13 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
-    android:background="@drawable/rectangle_gradient">
+    android:background="@drawable/gradiant_rectangle">
 
     <ImageView
+        android:id="@+id/imageview1"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:foregroundGravity="center_vertical"
+        android:layout_marginHorizontal="20dp"
         android:src="@drawable/uvpce_logo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

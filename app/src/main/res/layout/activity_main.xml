@@ -68,8 +68,9 @@
                     />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="350dp"
                     android:layout_height="wrap_content"
+
                     android:orientation="horizontal"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
@@ -78,14 +79,16 @@
                         android:id="@+id/button_alarm"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Create Alarm"
+                        android:text="Create Alrm"
                         app:icon="@drawable/baseline_add_alarm_24" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_alarm1"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cancel Alarm"
+                        android:text="cancel Alarm"
+                        android:textAlignment="textStart"
                         app:icon="@drawable/baseline_add_alarm_24"/>
                 </LinearLayout>
             </LinearLayout>

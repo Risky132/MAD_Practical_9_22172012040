@@ -1,3 +1,6 @@
+package com.example.mad_practical_9_22172012040
+
+
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
